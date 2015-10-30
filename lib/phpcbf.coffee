@@ -15,6 +15,7 @@ module.exports = Phpcbf =
       description: 'Path to the `phpcbf` executable.'
     standard:
       type: 'string'
+      enum: ['MySource', 'PEAR', 'PHPCS', 'PSR1', 'PSR2', 'Squiz', 'Zend']
       default: 'PSR2'
       description: 'The PHPCS coding standard to use.'
 
